@@ -17,3 +17,9 @@ brime = API('client_auth')
 json = await brime.users()
 await brime.close()
 ```
+
+## Pre-requisites
+These are the following requirements to get setup with BrimePy.
+- Python 3.6+ (3.5+ should work, not tested)
+- `aiohttp` library
+Can be installed via `pip` or `requirements.txt`.
