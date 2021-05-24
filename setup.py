@@ -22,7 +22,7 @@ def get_version(rel_path):
 
 setuptools.setup(
     name='brimepy',
-    version=get_version('brime/__init__.py'),
+    version=get_version('brimepy/__init__.py'),
     author='雲華',
     description='An asynchronous API wrapper for the Brime API.',
     url='https://github.com/yunwah/brimepy',

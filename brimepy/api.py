@@ -236,3 +236,6 @@ class API:
         """
         url = BRIME_API + f'/channel/{channel}/emotes?client_id={self.client_auth}'
         return await self._get(url)
+
+    async def close(self):
+        self.session.close()
